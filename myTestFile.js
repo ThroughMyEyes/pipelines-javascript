@@ -1,10 +1,9 @@
 var abc = 1;
 
-function add(a, b) {
+export function add(a, b) {
   return a + b;
 }
 
-function subtract(a, b) {
+export function subtract(a, b) {
   return a - b;
 }
-export default add;
